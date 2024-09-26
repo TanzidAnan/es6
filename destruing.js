@@ -6,5 +6,12 @@ const anota ={
 
 }
 
-const phone =anota.phone;
+const {phone} =anota
+
+// const phone =anota.phone;
+console.log(phone)
+console.log(phone)
+console.log(phone)
+console.log(phone)
+console.log(phone)
 console.log(phone)
