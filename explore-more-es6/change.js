@@ -11,4 +11,19 @@ const pruduct = {
         { id: 2, name: 'apple', price: 10000 }
     ]
 }
-console.log(pruduct.data[1].price)
+// console.log(pruduct.data[1].price)
+
+const user ={
+    id:5001,
+    name:"tanzid",
+    address:{
+        street:{
+            fast:'54/4',
+            secdion:'98/36',
+            thard:'98/22'
+        },
+        city:'Dhaka'
+    }
+}
+
+console.log(user.address.street.secdion)
