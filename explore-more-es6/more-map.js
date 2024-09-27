@@ -4,4 +4,6 @@ const doubled = numbers.map(num => num * 2);
 
 const firends =['Tanzid','Marzan','Anan'];
 const length =firends.map(firend => firend.length);
+const fastLeater =firends.map(friend =>friend[0]);
+console.log(fastLeater)
 console.log(length)
