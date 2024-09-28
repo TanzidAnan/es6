@@ -4,5 +4,8 @@ const numbers = [12, 4, 65, 12, 32, 45, 55];
 
 const array = [52, 36, 96, 78, 10, 25, 14, 36, 52, 10, 12, 15, 63, 45,]
 
-const fastName = array.map(n => n >= 15);
+const fastName = array.map(n => {
+    const resut = n >=52;
+    return resut
+});
 console.log(fastName)
