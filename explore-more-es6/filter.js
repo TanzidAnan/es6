@@ -8,5 +8,5 @@ const firend =firends.filter(f=> f.length >5);
 
 const number =[12,25,45,20,30,25,14,60,41];
 // const nun =number.filter(n => n>20);
-const nun =number.filter(n=> n%2 ===0)
+const nun =number.filter(n=> n%2 ===1)
 console.log(nun)
