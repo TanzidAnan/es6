@@ -11,4 +11,13 @@ function third(a, b) {
     const totle = a+ b;
 }
 const result1 =third(2);
-console.log(result)
+// console.log(result)
+
+function noNagative(a,b){
+    if(a<0 ||b<0){
+        return
+    }
+    return a+b
+}
+const totle =noNagative(2,-2);
+console.log(totle)
