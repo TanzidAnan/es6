@@ -6,12 +6,15 @@ const products = [
 ]
 
 class Product{
-    country ='bangladesh'
+    country ='bangladesh';
+    constructor(name){
+        this.name =name
+    }
     speak(talk){
         console.log(`talking about ${talk}`)
     }
 }
 
-const lenovo= new Product();
+const lenovo= new Product('le le lenovo');
 console.log(lenovo)
 lenovo.speak('oba kita kou')
