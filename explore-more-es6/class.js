@@ -5,16 +5,30 @@ const products = [
     { id: 4, name: 'redmi', price: 20000 }
 ]
 
-class Product{
-    country ='bangladesh';
-    constructor(name){
-        this.name =name
+class Product {
+    country = 'bangladesh';
+    constructor(name) {
+        this.name = name
     }
-    speak(talk){
+    speak(talk) {
         console.log(`talking about ${talk}`)
     }
 }
 
-const lenovo= new Product('le le lenovo');
-console.log(lenovo)
-lenovo.speak('oba kita kou')
+const lenovo = new Product('le le lenovo');
+// console.log(lenovo)
+// lenovo.speak('oba kita kou')
+
+
+class Teacher {
+    constructor(name,subject){
+        this.name =name;
+        this.subject =subject
+    }
+    lecture(){
+        console.log('sir is teaching Math')
+    }
+}
+
+const tapun =new Teacher('Tapun', 'Math');
+console.log(tapun)
