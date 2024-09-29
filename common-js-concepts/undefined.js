@@ -23,4 +23,7 @@ const totle = noNagative(2, -2);
 // console.log(totle)
 
 const fifth = { id: 5, name: 'Tanzid', age: 45 };
-console.log(fifth.time);
+// console.log(fifth.time);
+
+const arr = [1, 2, 1];
+console.log(arr[3]);
