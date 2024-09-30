@@ -1,4 +1,9 @@
-function greeting(person){
-    console.log(person)
+function greeting(greetingHenler) {
+    console.log(greetingHenler())
 }
-greeting('Halim mama')
+
+function greetingHenler(){
+    console.log('good morning')
+}
+
+greeting(greetingHenler)
