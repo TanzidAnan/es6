@@ -1,9 +1,9 @@
-function greeting(greetingHenler) {
-    console.log(greetingHenler())
+function greeting(greetingHenler,name) {
+    greetingHenler(name);
 }
 
-function greetingHenler(){
-    console.log('good morning')
+function greetingHenler(name){
+    console.log('good morning,',name)
 }
 
-greeting(greetingHenler)
+greeting(greetingHenler,'Tanzid')
